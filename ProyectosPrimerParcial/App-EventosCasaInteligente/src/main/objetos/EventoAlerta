@@ -1,0 +1,23 @@
+package frc.utn.isi.backend.objetos;
+
+public class EventoAlerta extends Evento {
+    private String motivo;
+    private String severidad; 
+
+    public EventoAlerta(LocalDateTime timestamp, String deviceId, String motivo, String severidad){
+        super(timestamp, deviceId);
+        this.motivo = motivo;
+        this.motivo = motivo;
+        this.severidad = severidad; 
+    }
+
+    public String descripcion(){
+        return "ALERTA TAMPER (" + severidad + ")";
+    }
+    public Boolean esCritico(){
+        if (this.severidad == "Alta"){
+            return true;
+        }
+    
+    }
+}

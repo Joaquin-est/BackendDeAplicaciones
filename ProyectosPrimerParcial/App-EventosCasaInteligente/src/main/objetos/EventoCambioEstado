@@ -1,0 +1,16 @@
+package frc.utn.isi.backend.objetos;
+
+public class EventoCambioEstado extends Evento{
+    private String estadoPrevio;
+    private String estadoNuevo;
+
+    public EventoCambioEstado(LocalDateTime timestamp, String deviceId, String estadoPrevio, String estadoNuevo){
+        super(timestamp, deviceId);
+        this.estadoPrevio = estadoPrevio;
+        this.estadoNuevo = estadoNuevo;
+    }
+
+    public String descripcion(){
+        return estadoPrevio + "-->" + estadoNuevo;
+    }
+}

@@ -1,0 +1,8 @@
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\App.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\entidades\Efectivo.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\entidades\Pago.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\entidades\Tarjeta.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\entidades\Transferencia.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\fabrica\PagoFactory.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\iterables\Pagos.java
+D:\JavaProjects\pagos\pagos-app\src\main\java\com\frc\utn\isi\backend\pagos\mappers\PagosMapper.java
